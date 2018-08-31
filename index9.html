@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+</body>
+</html>
+<script>
+    n1=parseFloat(prompt("digite a nota"));
+    n2=parseFloat(prompt("digite a nota"));
+    n3=parseFloat(prompt("digite a nota"));
+    n4=parseFloat(prompt("digite a nota"));
+    media = (n1+n2+n3+n4)/4;
+    document.write(media);
+
+    if(media > 7){
+        document.write("<p> aprovado</p>");
+    }else if(media < 4){
+            document.write("<p> rep direto</p>");
+        }else{
+            document.write("<p> recuperaçao</p>");
+            rec = parseInt(prompt("digite sua nota de recuperaçao"));
+        }
+        if(rec >=5 ){
+            document.write("<p>aluno aprovado na recuperaçao</p>")
+        }else{
+            document.write("aluno reprovado na recuperaçao")
+        }
+
+</script>

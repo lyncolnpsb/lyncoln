@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title></title>
+  
+</head>
+<body>
+    <div>
+        valor 1 : <input type="number" id="v1">
+    </div>
+    <div>
+        valor 2 : <input type="number" id="v2">
+    </div>
+    <button onclick="calculo()">calcular</button>
+    <div>adiçao:<input type="number" id="soma"></div>
+    <div>subtraçao:<input type="number" id="subt"></div>
+    <div>multiplicaçao: <input type="number" id="mult"></div>
+    <div>divisao: <input type=" number" id="divi"></div>
+    
+    
+
+</body>
+</html>
+<script>
+function calculo( ){
+    v1=document.getElementById("v1").value;
+    v2=document.getElementById("v2").value;
+    soma=parseFloat(v1) + parseFloat(v2);
+    v1=document.getElementById("v1").value;
+    v2=document.getElementById("v2").value;
+    sub=parseFloat(v1) - parseFloat(v2);
+    v1=document.getElementById("v1").value;
+    v2=document.getElementById("v2").value;
+    mult=parseFloat(v1) * parseFloat(v2);
+    v1=document.getElementById("v1").value;
+    v2=document.getElementById("v2").value;
+    divi=parseFloat(v1) / parseFloat(v2);
+
+
+    
+
+
+
+
+}
+
+
+
+
+</script>
